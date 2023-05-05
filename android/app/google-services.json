@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "366365046271",
+    "project_id": "saudefitverso",
+    "storage_bucket": "saudefitverso.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:366365046271:android:25798e63bd998cc954a3ca",
+        "android_client_info": {
+          "package_name": "com.example.fiversosaude"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "366365046271-er5l9s59fmqcicunl0gfi2i4eplh03nv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fiversosaude",
+            "certificate_hash": "e9c991fc9be7d0365349773a4eec20fa5fbc1943"
+          }
+        },
+        {
+          "client_id": "366365046271-st8ie8pi9dsqo1akmuthgkhi771k4ehj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMV2AkKZVbROfVE-FPtFgOwc-SKW_6e1w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "366365046271-st8ie8pi9dsqo1akmuthgkhi771k4ehj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
