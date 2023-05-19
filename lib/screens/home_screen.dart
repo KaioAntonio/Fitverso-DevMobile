@@ -18,27 +18,12 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text("FitVerso"),
-        actions: [
-          IconButton(
-            icon: Icon(Icons.logout),
-            onPressed: () {
-              FirebaseAuth.instance.signOut().then((value) {
-                print("Saiu");
-                Navigator.push(context, MaterialPageRoute(builder: 
-                  (context) => SignInScreen()));
-              });
-            },
-          )
-        ],
-      ),
       body: Scaffold(
       body: Container(
         width: MediaQuery.of(context).size.width,
         height: MediaQuery.of(context).size.height,
         decoration: BoxDecoration(gradient: LinearGradient(colors: [
-            hexStringToColor("007fff"),
+            hexStringToColor("000000"),
             hexStringToColor("007fff"),
             hexStringToColor("007fff")
     ],
