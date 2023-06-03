@@ -88,7 +88,7 @@ class _SignInScreenState extends State<SignInScreen> {
           content: new Text("Informe uma email e senha válidos"),
           actions: <Widget>[
             // define os botões na base do dialogo
-            new FlatButton(
+            new ElevatedButton(
               child: new Text("Fechar"),
               onPressed: () {
                 Navigator.of(context).pop();
